@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+* {
+  text-rendering: geometricPrecision;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset,
+    0 20px 60px rgba(0, 0, 0, 0.60);
+  backdrop-filter: blur(16px);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #e5e7eb 0%, #a5b4fc 35%, #c4b5fd 65%, #e5e7eb 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

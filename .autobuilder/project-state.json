@@ -1,0 +1,25 @@
+{
+  "project": "ObviouslyBad",
+  "stage": "mvp",
+  "positioning": "We make bad ideas obvious.",
+  "stack": {
+    "framework": "Next.js",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS",
+    "package_manager": "pnpm",
+    "deployment": "Vercel"
+  },
+  "status": {
+    "local_analysis": "implemented",
+    "routes": ["/", "/examples", "/about"],
+    "api_routes": [],
+    "database": "none",
+    "auth": "none"
+  },
+  "notes": {
+    "analysis_disclaimer": "Based on startup pattern analysis, not live market research.",
+    "guardrails": "Preserve ObviouslyBad branding, free positioning, and pnpm-only workflow."
+  },
+  "last_updated": "2026-05-10"
+}
+

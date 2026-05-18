@@ -1,0 +1,38 @@
+{
+  "next_best_tasks": [
+    {
+      "id": "optional-ai-route",
+      "title": "Add optional AI API route",
+      "why": "Enable higher-quality analysis when OPENAI_API_KEY exists, without changing default free local behavior."
+    },
+    {
+      "id": "share-cards",
+      "title": "Add shareable result cards",
+      "why": "Make roasts viral and easy to post without exposing private data."
+    },
+    {
+      "id": "public-examples-feed",
+      "title": "Add public examples feed",
+      "why": "Create a browsable library of patterns and increase engagement."
+    },
+    {
+      "id": "pattern-dataset",
+      "title": "Add idea pattern dataset",
+      "why": "Improve deterministic scoring quality and build the long-term moat."
+    },
+    {
+      "id": "autobuilder-export",
+      "title": "Add Autobuilder idea scoring export",
+      "why": "Allow internal systems to consume structured analysis output safely."
+    }
+  ],
+  "constraints": [
+    "pnpm only",
+    "never auto deploy",
+    "never auto push",
+    "preserve free public positioning",
+    "preserve ObviouslyBad branding"
+  ],
+  "last_updated": "2026-05-10"
+}
+

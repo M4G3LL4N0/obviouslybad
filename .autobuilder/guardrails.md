@@ -1,0 +1,13 @@
+- Use pnpm only.
+- Never use npm.
+- Never auto deploy.
+- Never auto push.
+- Preserve ObviouslyBad branding.
+- Preserve free public positioning.
+- Do not drift toward generic SaaS validation.
+- Do not expose private Noaerth automation publicly.
+- Do not expose private Autobuilder strategy publicly.
+- Do not turn this into a generic validation SaaS.
+- Do not add pricing as the homepage focus.
+- Do not delete foundation files.
+
