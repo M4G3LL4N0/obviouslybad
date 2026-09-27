@@ -11,33 +11,25 @@
 html,body{max-width:100%;overflow-x:hidden}
 h1,h2,p,li,a{overflow-wrap:anywhere}
 
-body { margin:0; background:#2a120c; color:#ffe8dc; font:17px/1.45 "Palatino Linotype", Palatino, serif; }
-.sheet { max-width:760px; margin:28px auto; background:#3a1a12; padding:28px; border-top:8px solid #fb7185; }
-.rule { letter-spacing:.14em; text-transform:uppercase; font-size:12px; color:#fb7185; }
-h1 { font-size:42px; margin:8px 0; }
-h2 { font-weight:500; font-size:22px; }
-table { width:100%; border-collapse:collapse; margin-top:12px; }
-td, th { border-bottom:1px solid #ffe8dc; text-align:left; padding:8px 4px; }
-.cta { display:inline-block; margin-top:16px; color:#2a120c; background:#ffe8dc; text-decoration:none; padding:10px 14px; }
-#scope { max-width:760px; margin:0 auto 32px; }
+body { margin:0; background:#1a1024; color:#f3e8ff; font:18px/1.35 "Trebuchet MS", sans-serif; }
+header { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; padding:18px 22px; background:#f3e8ff; color:#1a1024; }
+.ch { display:grid; grid-template-columns:72px minmax(0,1fr); gap:12px; padding:28px 22px; border-bottom:1px solid #f3e8ff; }
+b { color:#d8b4fe; font-size:22px; }
+h1 { margin:0; font-size:clamp(32px, 4vw, 52px); line-height:1; }
+.cta { color:#1a1024; background:#d8b4fe; text-decoration:none; padding:12px 14px; display:inline-block; }
+#scope { padding:22px; }
+@media (max-width:600px) { .ch { grid-template-columns:1fr; } }
 
 </style>
 </head>
 <body>
 
-<article class="sheet">
-  <p class="rule">Lab · ledger</p>
-  <h1>ObviouslyBad</h1>
-  <h2>Make bad ideas obvious.</h2>
-  <p>Paste any startup idea and get the brutally clear version of why it might fail, what already beats it, and what would need to be true for it to survive.</p>
-  <table>
-    <tr><th>Field</th><th>Record</th></tr>
-    <tr><td>Customers</td><td>None claimed</td></tr>
-    <tr><td>Metrics</td><td>None claimed</td></tr>
-    <tr><td>Status</td><td>Lab</td></tr>
-  </table>
-  <a class="cta" href="#scope">Read the notes</a>
-</article>
+<main class="chapters">
+  <header><span>ObviouslyBad</span><span>Lab</span></header>
+  <section class="ch"><b>01</b><h1>Make bad ideas obvious.</h1></section>
+  <section class="ch"><b>02</b><p>Paste any startup idea and get the brutally clear version of why it might fail, what already beats it, and what would need to be true for it to survive.</p></section>
+  <section class="ch"><b>03</b><a class="cta" href="#scope">Read what is withheld</a></section>
+</main>
 <section id="scope"><ul><li>The page describes the current work. It does not invent customers.</li><li>A live signup, price, or metric appears here only when the product has one.</li><li>Maturity on this page is a label, not a launch claim.</li></ul></section>
 </body>
 </html>
