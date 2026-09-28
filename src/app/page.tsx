@@ -20,7 +20,8 @@ export default function Home() {
         <section className="pt-8 md:pt-14">
           <div className="glass relative overflow-hidden rounded-3xl px-6 py-10 md:px-10 md:py-14">
             <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(700px_circle_at_0%_0%,rgba(99,102,241,0.22),transparent_55%),radial-gradient(700px_circle_at_100%_0%,rgba(168,85,247,0.18),transparent_55%)]" />
-            <div className="relative">
+            <div className="relative grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+              <div>
               <p className="text-xs uppercase tracking-[0.25em] text-zinc-300/70">
                 We make bad ideas obvious.
               </p>
@@ -46,6 +47,22 @@ export default function Home() {
                   See examples
                 </Link>
               </div>
+              </div>
+              <aside className="rounded-2xl border border-white/10 bg-black/30 p-5">
+                <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-400">Sample roast card</p>
+                <div className="mt-3 flex items-center justify-between gap-3">
+                  <span className="inline-flex items-center rounded-full bg-red-500/10 px-3 py-1 text-xs font-semibold text-red-100 ring-1 ring-red-500/20">
+                    Obviously Bad
+                  </span>
+                  <span className="text-xs text-zinc-200/50">Pattern score 24</span>
+                </div>
+                <p className="mt-4 text-sm leading-7 text-zinc-200/80">
+                  “AI social network for founders” usually means: no wedge, a cold start, and generic content.
+                </p>
+                <p className="mt-3 text-xs leading-6 text-zinc-200/50">
+                  Defense shown with the roast: ship a single-player tool first. This card is a product preview, not a live market score.
+                </p>
+              </aside>
             </div>
           </div>
         </section>
