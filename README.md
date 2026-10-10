@@ -1,159 +1,95 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/hero-reduced.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/hero-light.svg">
-    <img src="assets/hero/hero-motion.svg" alt="ObviouslyBad — animated project plate showing policy &rarr; control &rarr; evidence. Motion depicts this project's real state transition." width="100%">
-  </picture>
-</p>
+# obviouslybad
 
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/computational-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/computational-light.svg">
-    <img src="assets/hero/computational-motion.svg" alt="State machine: policy &rarr; control &rarr; evidence." width="100%">
-  </picture>
-</p>
+> Decision clarity for ideas that fail the obvious test. Built in TypeScript on Next.js. 16 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.
 
-## ObviouslyBad
+The implementation summary below is intentionally conservative. Claims from NORTHSTAR are not presented as shipped functionality.
 
-**Make bad ideas obvious.**
+- [GitHub repository](https://github.com/M4G3LL4N0/obviouslybad)
+- [Project site](https://obviouslybad.vercel.app/)
 
-Free public startup idea stress testing. Find out why your idea might fail before you waste months building it.
+<!-- NOAERTH_IMAGE_SLOT: obviouslybad/hero -->
 
-### Routes
+## What it is
 
-- `/` – hero + analyzer + verdict cards + examples + why this exists + public feed concept
-- `/examples` – sample stress tests
-- `/about` – what this is / what it isn’t
+Decision clarity for ideas that fail the obvious test. Built in TypeScript on Next.js. 16 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.
 
-## Getting Started
+This repository is part of the NOAERTH venture ecosystem. The current public-facing evidence identifies it as a prototype / active development rather than a production-ready system.
 
-Install and run locally (pnpm only):
+## Capabilities
 
-```bash
-cd /Users/joshuadavis/startups/obviouslybad
-pnpm dev
-```
+### Available evidence
 
-Build:
+- The repository contains the implementation and documentation associated with the project description above.
+- The technology signals currently visible in the local project are listed in the technical notes below.
+- No additional capability is asserted here without a direct implementation reference.
 
-```bash
-cd /Users/joshuadavis/startups/obviouslybad
+### Experimental or planned
+
+Roadmap intent is deliberately not represented as shipped functionality. Review NORTHSTAR and source implementation together before adding future-facing claims.
+
+<!-- NOAERTH_IMAGE_SLOT: obviouslybad/workflow -->
+
+## How it works
+
+The current evidence supports a repository-level application or tool workflow, but does not provide enough verified detail in the Part 1 record to publish a component-level architecture diagram. The architecture slot is reserved for a deterministic diagram after the source flow is reviewed.
+
+<!-- NOAERTH_IMAGE_SLOT: obviouslybad/architecture -->
+
+## Quick start
+
+### Prerequisites
+
+- A runtime suitable for `Node.js`.
+- A clean checkout of this repository.
+
+### Install
+
+```sh
 pnpm install
-pnpm build
 ```
 
-### Deploy (manual only)
+### Run locally
 
-```bash
-cd /Users/joshuadavis/startups/obviouslybad
-vercel --prod
+```sh
+pnpm run dev
 ```
 
-<!-- TRILLIONX:presentation:begin -->
+### Build
 
-### Animated surfaces
+```sh
+pnpm run build
+```
 
-Generated from this repository's own source tree: every count, route and module below was measured, not written by hand.
+Commands are included only when they were detected in the repository manifest; verify environment-specific requirements before deployment.
 
-#### Identity
+## Technical notes
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/hero-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/hero-light.svg">
-  <img alt="Identity diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/hero-motion.svg">
-</picture>
+- **Primary language:** JavaScript/TypeScript
+- **Runtime:** Node.js
+- **Package manager:** pnpm
+- **Framework and integration signals:** Go, Rust
+- **Entry-point signals:** package.json
+- **Test evidence:** TEST_PLAN.md
+- **Repository topics:** `react`, `typescript`, `app`, `components`, `dung30n5`, `next-js`, `noaerth`, `prototype`
 
-#### Entry points
+## Status and roadmap
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/terminal-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/terminal-light.svg">
-  <img alt="Entry points diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/terminal-motion.svg">
-</picture>
+**Current status:** Prototype / active development.
 
-#### Modules
+**Current:** The repository and its documented implementation are available for inspection.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/architecture-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/architecture-light.svg">
-  <img alt="Modules diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/architecture-motion.svg">
-</picture>
+**Next:** Reconcile the README, source behavior, and safe public product language before adding deeper examples or diagrams.
 
-#### Routes
+**Future:** Product direction is maintained separately and must not be read as a shipped feature list.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/data_flow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/data_flow-light.svg">
-  <img alt="Routes diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/data_flow-motion.svg">
-</picture>
+## Contributing and license
 
-#### Primitives
+Follow the repository's existing contribution and licensing files where present. This README does not invent an open-source license or contribution policy.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/state_machine-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/state_machine-light.svg">
-  <img alt="Primitives diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/state_machine-motion.svg">
-</picture>
+## Visual documentation
 
-#### Composition
+Image slots are intentionally comments until authentic screenshots, deterministic diagrams, or approved conceptual visuals exist. No absent image file is referenced.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/component_map-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/component_map-light.svg">
-  <img alt="Composition diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/component_map-motion.svg">
-</picture>
+## NOAERTH
 
-#### Build and tests
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/build-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/build-light.svg">
-  <img alt="Build and tests diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/build-motion.svg">
-</picture>
-
-#### Workflow
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/workflow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/workflow-light.svg">
-  <img alt="Workflow diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/workflow-motion.svg">
-</picture>
-
-#### Domain
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/domain-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/domain-light.svg">
-  <img alt="Domain diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/domain-motion.svg">
-</picture>
-
-#### Identity object
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/footer-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/footer-light.svg">
-  <img alt="Identity object diagram for obviouslybad" src="https://raw.githubusercontent.com/M4G3LL4N0/obviouslybad/main/.github-art/surfaces/footer-motion.svg">
-</picture>
-
-<!-- TRILLIONX:presentation:end -->
-
-<!-- TRILLIONX:evidence:begin -->
-
-## What is measurable here
-
-Generated by `.github-art` from the source tree at publish time.
-
-| Signal | Value |
-| --- | --- |
-| HTTP routes | 16 |
-| Entry points | 1 |
-| Module roots | 3 |
-| Test files | 0 |
-| CI workflows | 0 |
-| Distinctive stack | scaffold only |
-| Status | PROTOTYPE |
-| Evidence confidence | E3 |
-| Animated surfaces | 10 |
-
-<!-- TRILLIONX:evidence:end -->
+[NOAERTH](https://www.noaerth.com) is the venture ecosystem associated with this project.
